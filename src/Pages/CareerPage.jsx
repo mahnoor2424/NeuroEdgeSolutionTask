@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Career from '../Components/career'
+import Career from '../Components/Career'
 import HiringJourney from '../Components/HiringJourney'
 import FilterDashboard from '../Components/FilterDashboard'
 import Random from '../Components/random'
