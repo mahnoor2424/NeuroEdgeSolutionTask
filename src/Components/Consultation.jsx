@@ -93,7 +93,7 @@ const Consultation = () => {
                 ))}
               </ul>
 
-              <Link to="book-consultation" className="book-btn">
+              <Link to="/book-consultation" className="book-btn">
                 Book Session
               </Link>
             </motion.div>

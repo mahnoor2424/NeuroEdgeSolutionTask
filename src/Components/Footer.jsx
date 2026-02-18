@@ -102,7 +102,9 @@ export default function Footer() {
             <div className="footer-col">
              <h4>Legal</h4>
              <ul>
-               <li>Privacy Policy</li>
+               <li>
+                <Link to="/Privacy">Privacy Policy</Link>
+                </li>
                <li>Terms & Conditions</li>
              </ul>
              <h4 className="academy">NeuroEdge Academy</h4>

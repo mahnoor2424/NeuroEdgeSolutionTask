@@ -14426,9 +14426,10 @@ letter-spacing: 1px;
   border-color: rgba(0,212,255,0.4);
 }
 
-/* BUTTONS */
+/* BUTTON */
 .ch-btn-outline {
   width: 100%;
+  max-width: 200px;       /* Optional: restrict width */
   padding: 15px;
   font-size: 10px;
   margin-top: 40px;
