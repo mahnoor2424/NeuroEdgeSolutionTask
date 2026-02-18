@@ -1,4 +1,5 @@
 import "../App.css";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion"; // <-- import motion
 
 export default function Startup() {
@@ -31,7 +32,7 @@ export default function Startup() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           {/* Starter */}
           <motion.div className="pricing-card" variants={cardVariants}>
@@ -48,7 +49,7 @@ export default function Startup() {
               <li>Monthly performance report</li>
             </ul>
 
-            <a href="contact" className="plan-btn">Deploy Starter</a>
+<Link to="/contact" className="plan-btn">Deploy Starter</Link>
           </motion.div>
 
           {/* Growth (Featured) */}
@@ -69,9 +70,8 @@ export default function Startup() {
               <li>Dedicated performance calls</li>
             </ul>
 
-            <a href="contact" className="plan-btn primary">
-              Deploy Growth
-            </a>
+          <Link to="/contact" className="plan-btn">Deploy Growth</Link>
+
           </motion.div>
 
           {/* Scale */}
@@ -90,7 +90,7 @@ export default function Startup() {
               <li>Ongoing growth consulting</li>
             </ul>
 
-            <a href="contact" className="plan-btn">Deploy Scale</a>
+<Link to="/contact" className="plan-btn">Deploy Scale</Link>
           </motion.div>
         </motion.div>
       </div>
