@@ -19,7 +19,7 @@ const CTA = () => {
             Book your consultation today and transform your tech vision into a
             thriving business.
           </p>
-          <a href="book-consultation" className="cta-button">
+          <a href="book-consultation" className="ctaa-button">
             Book Your Consultation Now <span className="arrow">→</span>
           </a>
         </div>

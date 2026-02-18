@@ -1411,7 +1411,7 @@ text-align: center;
 }
 
 /* Button */
-.cta-button {
+.ctaa-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1434,7 +1434,7 @@ text-align: center;
 
 .cta-button:hover {
   transform: scale(1.1);
-  color: #00050a;
+  color: #ffffff;
 }
 
 .cta-button:active {
@@ -13624,11 +13624,11 @@ margin-top: 2.3rem;
 }
 
 /* Button Style */
-.cta-button {
+.ctaa-button {
   display: inline-flex;
   align-items: center;
   width: 250px;
-  background: #00050a;
+  background: #0dcaf014;
   padding: 18px 8px;
   border-radius: 999px;
   border: 2px solid rgba(0, 212, 255, 0.2);
@@ -13642,14 +13642,16 @@ margin-top: 2.3rem;
 }
 
 /* Hover Effect */
-.cta-button:hover {
+.ctaa-button:hover {
   border-color: #00d4ff;
+  color: white;
   box-shadow: 0 0 25px rgba(0, 212, 255, 0.3);
 }
 
 /* Arrow Animation */
 .cta-button .arrow {
   margin-left: 12px;
+  color: white;
   transition: transform 0.3s ease;
 }
 
