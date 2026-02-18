@@ -13624,7 +13624,7 @@ margin-top: 2.3rem;
 }
 
 /* Button Style */
-.ctaa-button {
+.ctta-button {
   display: inline-flex;
   align-items: center;
   width: 250px;
@@ -13642,20 +13642,20 @@ margin-top: 2.3rem;
 }
 
 /* Hover Effect */
-.ctaa-button:hover {
+.ctta-button:hover {
   border-color: #00d4ff;
   color: white;
   box-shadow: 0 0 25px rgba(0, 212, 255, 0.3);
 }
 
 /* Arrow Animation */
-.cta-button .arrow {
+.ctta-button .arrow {
   margin-left: 12px;
   color: white;
   transition: transform 0.3s ease;
 }
 
-.cta-button:hover .arrow {
+.ctta-button:hover .arrow {
   transform: translateX(8px);
 }
 

@@ -202,7 +202,7 @@ export default function ServiceCards() {
         </motion.div>
 
         <div className="cta-wrapper">
-          <a href="contact" className="cta-button">
+          <a href="contact" className="ctta-button">
             Request Specialized Talent
             <span className="arrow">→</span>
           </a>
