@@ -241,7 +241,7 @@ const BookConsultation = () => {
               <a href={calendarLink} target="_blank" rel="noopener noreferrer" className="calendar-btn">
                 Add to Calendar
               </a>
-              <a href="home" className="back-btn">Back to Terminal</a>
+              <a href="/" className="back-btn">Back to Terminal</a>
             </div>
           </div>
         </motion.div>

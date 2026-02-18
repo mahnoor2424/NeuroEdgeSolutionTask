@@ -61,7 +61,7 @@ export default function Navbar() {
       <div className={`mobile-menu ${menuOpen ? "active" : ""}`}>
         <button className="close-btn" onClick={() => setMenuOpen(false)}>✕</button>
 
-        <a href="#" onClick={() => setMenuOpen(false)}>HOME</a>
+        <a href="/" onClick={() => setMenuOpen(false)}>HOME</a>
         <a href="about" onClick={() => setMenuOpen(false)}>ABOUT</a>
         <a href="services" onClick={() => setMenuOpen(false)}>SERVICES</a>
         <a href="pricing" onClick={() => setMenuOpen(false)}>PRICING</a>
