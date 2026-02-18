@@ -87,7 +87,7 @@ export default function Hero() {
         <div className="hero-content text-center text-lg-start mb-5 mb-lg-0">
           <div className="hero-badge fade-up">ACCELERATE YOUR BUSINESS GROWTH</div>
 
-          <h1 className="hero-heading fade-up fade-up-delay-1">
+          <h1 className="hero-heading  v fade-up fade-up-delay-1">
             Turn Your Tech Idea into a <span className="highlight">Profitable</span> IT Business
           </h1>
 
