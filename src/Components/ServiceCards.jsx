@@ -163,13 +163,15 @@ export default function ServiceCards() {
         </div>
 
         {/* Motion wrapper for staggered animation */}
+        
         <motion.div
-          className="grid container"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
-        >
+  className="grid"
+  variants={containerVariants}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} // <- once:false helps mobile animations trigger
+>
+
           {developers.map((dev, idx) => {
             const isActive = activeCard === dev.id;
             return (

@@ -12972,7 +12972,14 @@ font-family: 'Orbitron', sans-serif;
   gap: 1rem;
   margin-bottom: 2rem;
 }
-
+@media (max-width: 600px) {
+  .hire-developers {
+    padding: 2rem 1rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
 .date-btn {
   width: 112px;
   height: 128px;
