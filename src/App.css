@@ -1185,6 +1185,7 @@ text-align: center;
 .footer-col ul {
   list-style: none;
   padding: 0;
+    text-decoration: none
 
 
 }
@@ -1192,9 +1193,21 @@ text-align: center;
 .footer-col ul li {
   margin-bottom: 12px;
   font-size: 14px;
+;
   color: #aaa;
   cursor: pointer;
   transition: 0.3s;
+}
+.footer-col ul li a {
+  color: #aaa;           /* default link color */
+  text-decoration: none;  /* underline hatayega */
+  transition: 0.3s;
+  display: inline-block;  /* padding kaam kare properly */
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;        /* hover color same as before */
+  padding-left: 5px;     /* same as li hover */
 }
 
 .footer-col ul li:hover {

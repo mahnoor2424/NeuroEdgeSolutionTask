@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -74,14 +75,27 @@ export default function Footer() {
         </div>
         <div className="col-md-3 text-start">
             <div className="footer-col">
-             <h4>Quick Links</h4>
-             <ul>
-               <li>About</li>
-               <li>Services</li>
-               <li>Pricing</li>
-               <li>Contact</li>
-               <li>Careers</li>
-             </ul>
+             
+
+<h4>Quick Links</h4>
+<ul>
+  <li>
+    <Link to="/about">About</Link>
+  </li>
+  <li>
+    <Link to="/services">Services</Link>
+  </li>
+  <li>
+    <Link to="/pricing">Pricing</Link>
+  </li>
+  <li>
+    <Link to="/contact">Contact</Link>
+  </li>
+  <li>
+    <Link to="/career">Careers</Link>
+  </li>
+</ul>
+
            </div>
         </div>
         <div className="col-md-3   text-start">
