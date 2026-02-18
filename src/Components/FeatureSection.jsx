@@ -154,7 +154,7 @@ const FeatureSection = () => {
                     </svg>
                   </li>
                   <span className="shape">
-                    <img src="/assets/feature-img01.jpg" alt="simage" />
+                    <img src="/assets/fe.jpg" alt="simage" />
                   </span>
                 </ul>
               </div>
