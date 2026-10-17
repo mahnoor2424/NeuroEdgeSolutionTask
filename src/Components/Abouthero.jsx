@@ -35,7 +35,7 @@ const Abouthero = () => {
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6, delay: 0.4 }}
       >
-        Empowering startups and businesses with modern technology, strategic
+        Empowering startup and businesses with modern technology, strategic
         leadership, and sustainable digital growth through our expert neural
         network.
       </motion.p>
