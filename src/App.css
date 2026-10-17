@@ -12764,7 +12764,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
       .xb-copyright p a:hover {
         text-decoration: underline; }
 .consultations-section {
-  max-width: 1200px;
+  max-width: 100%;
   background-color: #00050a;
   margin: 0 auto;
   padding: 5rem 1.5rem;
